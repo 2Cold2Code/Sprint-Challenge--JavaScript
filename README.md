@@ -37,6 +37,8 @@ Edit this document to include your answers after each question. Make sure to lea
     A function is stand-alone, where a method is a function within/on an object.
 
 3. What is closure?
+    
+    Closure is the ability of things within a block to look for values outside of block scope, while preventing outside sources from utilizing a value within a block;
 
 4. Describe the four rules of the 'this' keyword.
 
