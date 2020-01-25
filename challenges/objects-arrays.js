@@ -125,7 +125,7 @@ The zoos want to display both the scientific name and the animal name in front o
 
 */
 
-const displayNames = zooAnimals.forEach(index => `Name: ${index.animal_name}, Scientific: ${index.scientific_name}.`);
+const displayNames = zooAnimals.forEach((index => `Name: ${index.animal_name}, Scientific: ${index.scientific_name}.`), 0);
 console.log(displayNames);
 
 /* Request 2: .map()
@@ -150,7 +150,7 @@ console.log(lowPopulationAnimals);
 The zoos need to know their total animal population across the United States. Find the total population from all the zoos using the .reduce() method. Remember the reduce method takes two arguments: a callback (which itself takes two args), and an initial value for the count.
 
 */
-const populationTotal = zooAnimals.reduce((a, b) => a + b.population);
+const populationTotal = zooAnimals.reduce(((a, b) => a + b.population), 0);
 console.log(populationTotal);
 
 
