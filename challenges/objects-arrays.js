@@ -41,7 +41,7 @@ const velociraptor = {
 console.log(tyrannosaurus.weight);
 
 // What was the diet of a velociraptor?
-console.log();
+console.log(velociraptor.weight);
 
 // How long was a stegosaurus?
 console.log();
