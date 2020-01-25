@@ -42,6 +42,14 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. Describe the four rules of the 'this' keyword.
 
+    1.) Global/console or window binding, where `this` references the global object/console/window.  If not defined otherwise by another rule, this binding is referenced by default.
+
+    2.) Implicit binding, wherein a property or method called on a `this` instance references the object within which it is called.
+
+    3.) Explicit binding, where it is referenced by the .call(), .apply(), or .bind() methods.
+
+    4.) New binding, where `this` becomes bound to the created object by the `new` keyword.
+
 5. Why do we need super() in an extended class?
 
 ## Project Set up
