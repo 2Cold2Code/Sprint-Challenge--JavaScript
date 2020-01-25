@@ -52,6 +52,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. Why do we need super() in an extended class?
 
+    The super() attribute passes the values of the parent to the extended class, much the same as .call() would do in prototypical inheritance.
+
 ## Project Set up
 
 Follow these steps to set up and work on your project:
