@@ -32,7 +32,7 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 // Explanation: 
 
 /*
-   Answer:  Closure allows a nested element to receive information outside of its block, even searching global if it's nowhere else, but not to send it.
+   Answer:  Closure allows a nested element to receive information outside of its block.
   The block protects it from sharing its values outside the block.
 */
 
