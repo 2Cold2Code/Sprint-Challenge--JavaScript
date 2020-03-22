@@ -1,5 +1,7 @@
 // ==== Objects ====
-
+function makeObjects(name, diet, weight, length, period){
+    return {name, diet, weight, length, period}
+}
 /* 
   Given the following information about dinosaurs, create 3 objects: 
   Use this pattern to create your objects: 
@@ -15,6 +17,16 @@ const tyrannosaurus = {
     period: `Late Cretaceous`
 }
 
+/* OR */
+
+// const tyrannosaurus = makeObjects(
+//     `tyrannosaurus`,
+//     `carnivorous`,
+//     `7000kg`,
+//     `12m`,
+//     `Late Cretaceous`
+// )
+
 // stegosaurus, herbivorous, 2000kg, 9m, Late Jurassic
 
 const stegosaurus = {
@@ -24,6 +36,16 @@ const stegosaurus = {
     length: `9m`,
     period: `Late Jurassic`
 }
+               
+        /*  OR  */
+
+// const stegosaurus = makeObjects(
+//     `stegosaurus`,
+//     `herbivorous`,
+//     `2000kg`,
+//     `9m`,
+//     `Late Jurassic`
+// )
 
 // velociraptor, carnivorous, 15kg, 1.8m, Late Cretaceous
 
@@ -34,6 +56,17 @@ const velociraptor = {
     length: `1.8m`,
     period: `Late Cretaceous`
 }
+
+        /*  OR  */
+        
+// const velociraptor = makeObjects(
+//     `velociraptor`,
+//     `carnivorous`,
+//     `15kg`,
+//     `1.8m`,
+//     `Late Cretaceous`
+// )
+
 
 // Using your dinosaur objects, log answers to these questions:
 
